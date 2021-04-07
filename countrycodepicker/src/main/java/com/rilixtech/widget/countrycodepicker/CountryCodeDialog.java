@@ -26,7 +26,7 @@ import java.util.List;
  *
  * Created by Joielechong on 11 May 2017.
  */
-class CountryCodeDialog extends Dialog {
+public class CountryCodeDialog extends Dialog {
   private static final String TAG = "CountryCodeDialog";
 
   private EditText mEdtSearch;
