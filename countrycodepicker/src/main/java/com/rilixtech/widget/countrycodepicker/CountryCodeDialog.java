@@ -42,7 +42,7 @@ public class CountryCodeDialog extends Dialog {
   private CountryCodeArrayAdapter mArrayAdapter;
   private List<Country> mTempCountries;
 
-  CountryCodeDialog(CountryCodePicker countryCodePicker) {
+  public CountryCodeDialog(CountryCodePicker countryCodePicker) {
     super(countryCodePicker.getContext());
     mCountryCodePicker = countryCodePicker;
   }
